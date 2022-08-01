@@ -1,0 +1,40 @@
+.theme {
+  text-align: center;
+  margin: 0;
+  margin-top: 15vh;
+  background-color: #607eaa;
+  font-family: "Kanit", sans-serif;
+  overflow: hidden;
+}
+
+.projects {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.logo {
+  width: 20vw;
+}
+
+.projectPics {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.githubButton {
+  width: 200px;
+  height: 50px;
+  font-size: medium;
+  font-weight: 800;
+  color: white;
+  margin-top: 40px;
+  border-radius: 25px;
+  background-image: url("https://cdn.wallpapersafari.com/40/36/vUicmb.jpg");
+  background-size: cover;
+  border: 0;
+  letter-spacing: 0.1rem;
+}
