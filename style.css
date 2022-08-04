@@ -7,6 +7,34 @@
   overflow: hidden;
 }
 
+.float-container {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0);
+  width: 600px;
+  height: 120px;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.float-letters {
+  /* background-color: aqua; */
+  width: 65%;
+  margin-left: 20px;
+  /* float: left; */
+  margin-right: 0%;
+}
+
+.float-image {
+  position: absolute;
+  width: 25%;
+  /* float: left; */
+  margin-top: 7%;
+
+  /* background-color: green; */
+  left: 68%;
+  top: 0%;
+}
 .projects {
   display: flex;
   margin: 0 auto;
@@ -14,7 +42,8 @@
 }
 
 .logo {
-  width: 20vw;
+  width: 50vw;
+  display: flex;
 }
 
 .projectPics {
@@ -23,6 +52,7 @@
   height: 150px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 0px;
 }
 
 .githubButton {
